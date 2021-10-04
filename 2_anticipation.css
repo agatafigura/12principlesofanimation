@@ -1,0 +1,17 @@
+.disappear {
+    animation: slideout 2s 1;
+  }
+  
+  @keyframes slideout {
+    0% {
+      opacity: 100%;
+    }
+    10% {
+      transform: translateY(-3vw);
+    }
+    100% {
+      opacity: 0%;
+      transform: translateY(50vw);
+      transition-timing-function: cubic-bezier(0, -0.46, 1, -1.1);
+    }
+  }

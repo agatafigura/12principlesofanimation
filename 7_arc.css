@@ -1,0 +1,11 @@
+.addtocart {
+    animation: movetocart 2s ease-in-out;
+    offset-path: path("M 40 30, C 0 -900, 0 -300, 220 -140");
+}
+
+@keyframes movetocart {
+        100% {
+            transform: translate(220px, -140px);
+            offset-distance: 100%;
+        }
+}

@@ -1,0 +1,10 @@
+.active {
+    transform: translateX(20vw);
+    transition: 1s;
+    z-index: 1;
+  }
+
+  #content {
+    transform: translateX(-20vw);
+  }
+

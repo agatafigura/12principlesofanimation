@@ -1,0 +1,49 @@
+.linear {
+    animation: linearmove 2s linear infinite alternate-reverse;
+}
+
+@keyframes linearmove {
+    100% {
+        transform: translateX(50vw);
+    }
+}
+
+.ease {
+    animation: easemove 2s ease infinite alternate-reverse;
+}
+
+@keyframes easemove {
+    100% {
+        transform: translateX(50vw);
+    }
+}
+
+.ease-in {
+    animation: ease-inmove 2s ease-in infinite alternate-reverse;
+}
+
+@keyframes ease-inmove {
+    100% {
+        transform: translateX(50vw);
+    }
+}
+
+.ease-out {
+    animation: ease-outmove 2s ease-out infinite alternate-reverse;
+}
+
+@keyframes ease-outmove {
+    100% {
+        transform: translateX(50vw);
+    }
+}
+
+.ease-in-out {
+    animation: ease-in-outmove 2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes ease-in-outmove {
+    100% {
+        transform: translateX(50vw);
+    }
+}
